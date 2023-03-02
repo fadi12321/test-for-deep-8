@@ -1,0 +1,7 @@
+{
+  "name": "@kbn/alerts",
+  "version": "1.0.0",
+  "description": "Alerts components and hooks",
+  "license": "SSPL-1.0 OR Elastic License 2.0",
+  "private": true
+}

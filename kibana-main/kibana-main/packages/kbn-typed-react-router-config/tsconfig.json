@@ -1,0 +1,21 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "isolatedModules": true,
+    "outDir": "target/types",
+    "types": [
+      "node",
+      "jest"
+    ]
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+  ],
+  "kbn_references": [
+    "@kbn/io-ts-utils"
+  ],
+  "exclude": [
+    "target/**/*",
+  ]
+}
